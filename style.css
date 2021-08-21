@@ -1,0 +1,20 @@
+iframe {
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  border: none;
+}
+
+#baitinput {
+  position: absolute;
+  z-index: 1000;
+  height: 5vmin;
+  width: 20vmin;
+  background-color: transparent;
+  font-size: 16px;
+  left: calc(50vw - 10vmin);
+  top: calc(50vh - 2.5vmin);
+  border: lightblue;
+}
